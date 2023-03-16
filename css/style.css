@@ -6,6 +6,7 @@
     box-sizing: border-box;
 }
 
+
 :root {
     --color-light: #ffffff;
     --color-pink:#ff0055;
@@ -34,6 +35,7 @@ a {
 
 a:hover {
     color: var(--color-pink);
+    text-decoration: overline;
 
 }
 
@@ -42,8 +44,9 @@ img {
 }
 
 .header-page {
+    width: 80%;
     height: 100px;
-    padding: 0 30px;
+    padding: 0 10px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -55,33 +58,24 @@ img {
 
 .header-menu ul {
     display: flex;
-    text-decoration: none;
-    margin-left: 750px;
-
-
-
+    gap: 10px;
 }
 
 .header-menu li {
-    margin-left: 20px;
     text-decoration: none;
+    margin-left: 10px;
+
+
+
 }
 
 .header-title {
     color: var(--color-light);
     font-size: 20px;
-    margin-left: 0px;
+    display: flex; 
+    justify-content: left;
+    margin-right: 850px;
 
-
-}
-
-.menu-item {
-    color: var(--color-light);
-    text-decoration: none;
-    display: flex;
-    justify-content: space-around;
-    margin-left: 100%;
-    float: right;
 }
 
 #air {
@@ -89,7 +83,6 @@ img {
     padding: 20px;
     font-size: 30px;
     display: flex;
-    margin-left: 0px;
 
 }
 
