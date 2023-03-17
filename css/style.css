@@ -8,18 +8,15 @@
 
 
 :root {
-    --color-light: #ffffff;
-    --color-pink:#ff0055;
-    --color-blue: rgb(12, 7, 39);
+    --color-white: #ffffff;
+    --color-pink: #ff0055;
     --border-radius: 5px;
     --transition: .5s;
-    
 }
 
 body {
-
     font-family: 'Golos Text', sans-serif;
-    }
+}
 
 ul,
 ol {
@@ -28,14 +25,14 @@ ol {
 
 a {
     text-decoration: none;
-    color: var(--color-light);
+    color: var(--color-white);
     font-weight: 700;
     transition: color var(--transition);
     padding: 10px;
 }
 
 a:hover {
-    color: var(--color-light);
+    color: var(--color-white);
     background-color: #ff0055;
     border-radius: var(--border-radius);
 }
@@ -44,9 +41,9 @@ img {
     width: 100%;
 }
 
-.logo{
+.logo {
     display: flex;
-    margin:5px;
+    margin: 5px;
     align-items: center;
 }
 
@@ -79,7 +76,7 @@ img {
 }
 
 .header-title {
-    color: var(--color-light);
+    color: var(--color-white);
     font-size: 20px;
     text-align: left;
 }
@@ -102,7 +99,7 @@ img {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    color: var(--color-light);
+    color: var(--color-white);
     text-align: center;
 }
 
@@ -112,12 +109,11 @@ img {
     font-size: 8vmin;
     margin: 30px 0;
     color: var(--color-pink);
-    
 }
 
 .first p {
     font-size: 15px;
-    color: var(--color-light);
+    color: var(--color-white);
     width: 50%;
     margin: 20px 0 30px;
 }
@@ -125,11 +121,10 @@ img {
 
 
 .btn {
-
     border: 1px solid #fff;
     border-radius: 10px;
     font-size: 15px;
-    color: var(--color-light);
+    color: var(--color-white);
     width: 200px;
     height: 40px;
     cursor: pointer;
@@ -144,11 +139,10 @@ img {
     background-color: #ffffff2f;
 }
 
-#seta{
+#seta {
     font-size: 30px;
 }
 
-#seta:hover{
+#seta:hover {
     cursor: pointer;
-
 }
