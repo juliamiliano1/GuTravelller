@@ -66,6 +66,7 @@ img {
     align-items: center;
     background-color: #ffffff17;
     border-radius: 10px;
+    width: 97%;
 }
 
 
@@ -73,6 +74,17 @@ img {
     text-decoration: none;
     margin-left: 10px;
     padding: 15px;
+}
+
+.menu-span{
+    background-color: #000;
+    padding: 15px 30px;
+    border-radius: 10px;
+}
+
+.menu-span:hover{
+    cursor: pointer;
+    background-color: #ffffff77;
 }
 
 .header-title {
